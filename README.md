@@ -2,8 +2,6 @@
 
 A simple portfolio template for Computer Science and Cybersecurity professionals built with React. 
 
-![react portfoiio](src/assets/images/page.gif)
-
 ### Setup
 
 **Install the git repo**
