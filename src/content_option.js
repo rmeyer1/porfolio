@@ -1,6 +1,6 @@
-const logotext = "{Initials Here}";
+const logotext = "Yb";
 const meta = {
-    title: "{Your name}",
+    title: "Yb",
     description: "I'm {Your name}, a technologist and cybersecurity enthuist.",
 };
 
@@ -8,137 +8,104 @@ const introdata = {
     title: "Hi, I'm {Your Name}",
     animated: {
         first: "Technologist",
-        second: "Visionary",
-        third: "Ethical Hacker",
-        fourth: "Programmer",
-        fifth: "Malware Developer",
-        sixth: "Analyst",
+        second: "Software Developer",
+        third: "Amateur Drone Pilot",
+        fourth: "Quality Engineer",
         // add more if you'd like but make sure to update /src/pages/home/index.js Line 29
     },
-    description: "Dedicated technology enthusiast with an insatiable curiosity for unraveling the complexities of our digital world.",
-    your_img_url: "https://i.ibb.co/wRjcnGL/me.jpg",
+    description: "",
+    your_img_url: "https://i.ibb.co/hXHBLfh/yb-logo2.png",
 };
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    aboutme: "I am a senior software quality engineer with nine years of experience, working in sectors like third-party logistics (3PL), software consulting, a startup, and currently at CarMax. My technical expertise is in JavaScript, especially in Node.js and React.js. I also have experience with Azure DevOps, particularly in integrating test automation frameworks into build pipelines. My specialty lies in developing test frameworks for web applications, with a focus on integration testing and reliably testing complex user interfaces. I graduated from Ohio University in 2014 with a degree in Management Information Systems.",
 };
 const worktimeline = [{
-        jobtitle: "Example 1",
-        where: "Google",
-        date: "2023",
+        jobtitle: "Senior Quality Engineer",
+        where: "CarMax",
+        date: "Present",
     },
     {
-        jobtitle: "Example 2",
-        where: "Micosoft",
-        date: "2022",
+        jobtitle: "Software Quality Engineer",
+        where: "Vantage Point Logistics (VPL)",
+        date: "2019-2021",
     },
     {
-        jobtitle: "Example 3",
-        where: "Meta",
-        date: "2021",
+        jobtitle: "Consultant - Engineering",
+        where: "Perficient",
+        date: "2018-2019",
     },
 ];
 
 const skills = [{
+        name: "NodeJS",
+    },
+    
+    {
+        name: "ReactJS",
+    },
+    
+    {
+        name: "TypeScript",
+    },
+    
+    {
         name: "Python",
     },
-    
+
     {
-        name: "C",
-    },
-    
-    {
-        name: "Java",
-    },
-    
-    {
-        name: "Bash",
+        name: "Azure DevOps",
     },
 
     {
-        name: "Powershell",
+        name: "Playwright",
     },
 
     {
-        name: "Reverse Engineering",
+        name: "WebDriverIO",
     },
 
     {
-        name: "Web-Exploitation",
-    },
-
-    {
-        name: "Network Exploitation",
+        name: "Linux",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/1623953939349.mov",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/crescent-beach.mov",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/quarry.mov",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/sand-bar.mov",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/salt-pond.mp4",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://storage.googleapis.com/porfolio-d6cff.appspot.com/the-point.mov",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "test@test.com",
-    description: "Looking forward to hearing from you!",
+    //YOUR_EMAIL: "test@test.com",
+    //description: "Looking forward to hearing from you!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "SERVICE_ID",
